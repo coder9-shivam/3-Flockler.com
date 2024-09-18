@@ -1,0 +1,117 @@
+.top-banner {
+  background-color: #db2777;
+  padding: 8px 26px;
+}
+
+.small-bold-text {
+  font-size: 0.95rem;
+}
+
+.banner-text {
+  color: white;
+  text-align: center;
+}
+
+.banner-text a{
+  font-weight: 600;
+  color: white;
+}
+
+.head-navbar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(158, 158, 158, 0.119);
+}
+
+.left-nav-section img {
+  height: 30px;
+}
+
+.middle-nav-section {
+  display: flex;
+  align-items: center;
+}
+
+.option-section-flex{
+  display: flex;
+  align-items: center;
+}
+
+.option-list {
+  list-style-type: none;
+  color: var(--secondary-text-color);
+  padding: 40px 8px;
+  transition: 1s ease-out;
+}
+
+.option-list a:visited{
+  color: var(--secondary-text-color);
+}
+
+.down-arrows-logo {
+  height: 10px;
+  margin-left: 4px;
+  fill: #0f172a;
+}
+
+.search-logo {
+  display: inline-block;
+  padding: 40px 10px;
+}
+
+.search-logo img {
+  height: 15px;
+}
+
+.lang-option {
+  display: inline-block;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.lang-option:hover {
+  border: 1px solid rgb(184, 184, 184);
+  padding-inline: 9px;
+}
+
+.right-nav-section button {
+  padding: 10px 16px;
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.right-nav-section button:hover {
+  box-shadow: 0px 0px 10px rgba(183, 183, 183, 0.617);
+}
+
+.login {
+  border: 1px solid #80808037;
+  background-color: white;
+}
+
+.free-demo {
+  border: none;
+  color: white;
+  background-color: #14b8a6;
+}
+
+.free-demo:hover {
+  background-color: #14b8a5bb;
+}
+
+.free-trial {
+  border: none;
+  color: white;
+  background-color: var(--primary-button-color);
+}
+
+.free-trial:hover {
+  background-color: #1d4ed8bb;
+}

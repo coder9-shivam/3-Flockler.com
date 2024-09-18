@@ -1,0 +1,51 @@
+.head-intro-section{
+  display: flex;
+  column-gap: 60px;
+  padding-block: 80px 24px;
+}
+
+.information-section{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 12px 0 0;
+}
+
+.information-section p{
+  margin: 20px 0 0;
+  font-size: 1.5rem;
+}
+
+.free-demo-trial{
+  margin: 20px 0 0;
+}
+
+.trial-buttons{
+  margin: 0 6px 12px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+
+.book-demo{
+  background-color: var(--primary-button-color);
+}
+
+.free-day-trial{
+  background-color: var(--secondary-button-color);
+}
+
+.payment-info{
+  display: block;
+  padding: 0 6px 0;
+  font-size: 14px;
+}
+
+.img-section img{
+  width: 500px;
+  height: 380px;
+  object-fit: cover;
+}
+
