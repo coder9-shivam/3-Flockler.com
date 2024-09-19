@@ -1,16 +1,18 @@
-.head-intro-section{
+/* MAIN BODY HEADER */
+
+.header-intro-section{
   display: flex;
-  column-gap: 60px;
+  column-gap: 80px;
   padding-block: 80px 24px;
 }
 
-.information-section{
+.left-section{
   display: flex;
   flex-direction: column;
   padding: 40px 12px 0 0;
 }
 
-.information-section p{
+.left-section p{
   margin: 20px 0 0;
   font-size: 1.5rem;
 }
@@ -20,6 +22,7 @@
 }
 
 .trial-buttons{
+  cursor: pointer;
   margin: 0 6px 12px;
   padding: 12px 24px;
   border: none;
@@ -27,6 +30,10 @@
   font-size: 18px;
   color: white;
   font-weight: 600;
+}
+
+.trial-buttons:hover{
+  opacity: 0.85;
 }
 
 .book-demo{
@@ -43,9 +50,170 @@
   font-size: 14px;
 }
 
-.img-section img{
+.right-section img{
   width: 500px;
   height: 380px;
   object-fit: cover;
 }
 
+/* BRAND LOGOS SECTION */
+.trusted-brand-section{
+  padding: 80px 0 20px;
+}
+
+.brand-section{
+  padding-block: var(--padding-inline-section);
+}
+
+.brand-heading-section{
+  text-align: center;
+  padding-inline: var(--padding-inline-section);
+}
+
+.brand-logo-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.brand-logo-section img{
+  margin-inline: 32px;
+  padding: 20px;
+  width: 200px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+}
+
+.brand-logo-section img:hover{
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+
+/* BRAND ADVERTISMENT POSTER */
+
+.adv-poster{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 80px;
+  margin-block: 80px;
+}
+
+.poster-img img{
+  width: 500px;
+  transform: scaleZ(0.5);
+}
+
+.poster-information{
+  width: 500px;
+}
+
+.blank-line{
+  width: 60px;
+  height: 4px;
+  background-color:#db2777;
+  margin-bottom: 40px;
+}
+
+.poster-information a:hover{
+  text-decoration: underline;
+}
+
+.poster-information p a{
+  margin-top: 10px;
+}
+
+.worktop-express{
+  color: var(--accent-link-color);
+  margin: 0;
+}
+
+
+/* SILICON VALLEY */
+.background-img{
+  padding-block: 40px 80px;
+  border-bottom: 1px solid rgba(120, 120, 120, 0.5);
+}
+
+.curious-information{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 220px;
+  margin-top: 12px;
+}
+
+.curious-information h3{
+  font-size: 1.5rem;
+  margin-inline: 250px;
+  text-align: center;
+}
+
+.curious-information a{
+  width: 100%;
+  text-align: center;
+  padding-block: 8px;
+  font-weight: 500;
+}
+
+
+/* WHAT YOU GET */
+.get-offer-section{
+  padding-block: 130px;
+  border-bottom: 1px solid rgba(120, 120, 120, 0.5);
+}
+
+.get-heading{
+  text-align: center;
+}
+
+.option-you-get{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px 20px;
+  margin-block: 130px;
+}
+
+.offers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.offers img{
+  width: 50px;
+}
+
+.offer-about{
+  margin-top: 28px;
+  text-align: center;
+}
+
+.offer-about h3{
+  margin-top: 4px;
+  font-size: 1.3rem;
+}
+
+.offer-about p{
+  font-size: 1.1rem;
+}
+
+.offer-about a:hover{
+  text-decoration: underline;
+}
+
+.see-full-offers{
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.see-full-offers:hover{
+  text-decoration: underline;
+}

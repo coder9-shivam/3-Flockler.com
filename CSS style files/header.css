@@ -85,10 +85,12 @@
   font-size: 16px;
   font-weight: 600;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .right-nav-section button:hover {
   box-shadow: 0px 0px 10px rgba(183, 183, 183, 0.617);
+  opacity: 0.8;
 }
 
 .login {
@@ -102,16 +104,8 @@
   background-color: #14b8a6;
 }
 
-.free-demo:hover {
-  background-color: #14b8a5bb;
-}
-
 .free-trial {
   border: none;
   color: white;
   background-color: var(--primary-button-color);
-}
-
-.free-trial:hover {
-  background-color: #1d4ed8bb;
 }
